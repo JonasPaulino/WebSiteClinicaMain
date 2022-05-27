@@ -1,0 +1,469 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.herder_top{
+    display: flex;  
+}
+.container{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 10px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial;
+
+}
+
+nav .active a,
+nav a:hover{
+    background-color: #36aae1;
+    color: white;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/infantil.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.textobanner{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textobanner h1{
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.textobanner h2{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.opcoesbanner{
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+}
+
+.opcoes1,
+.opcoes2,
+.opcoes3{
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+
+.opcoes1{
+    background-color: #36aae1;
+}
+
+.opcoes2{
+    background-color: #0079c7;
+}
+.opcoes3{
+    background-color: #2b4c99;
+}
+
+.opcoestitulo{
+    font-size: 20px;
+}
+
+.opcoestitulodetalhe{
+    font-size: 10px ;
+    margin-top: 10px;
+}
+
+.opcoes1 a,
+.opcoes2 a,
+.opcoes3 a{
+    display: inline-block;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2 ;
+}
+#geral aside{
+    flex: 1;
+}
+
+.widget_titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_titulo_text{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.widget_titulo_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36aae1;
+    margin-top: 10px;
+}
+
+article .noticia_data{
+   display: flex; 
+}
+
+article .noticia_poster_at{
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .noticia_comentario{
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .noticia_imagem{
+    margin-top: 20px;
+}
+
+article .noticia_imagem img{
+    width: 100%;
+    height: auto;
+}
+
+article .noticia_titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 23px;
+}
+article .noticia_resumo{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+article a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+
+aside .widget_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrado{
+    background-color: #39aae1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+aside .quadrado{
+    height: 100px;
+    flex: 1;
+    min-width: 100px;
+    border-radius: 1px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_barra{
+    display: flex;
+    flex: 1;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: white;
+
+}
+
+.footer_barra a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.fm_1{
+    background-color: #36aae1;
+}
+
+.fm_2{
+    background-color: #0079c7;
+}
+
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.MudarParaColuna{
+    flex-direction: column;
+}
+
+.area_texto{
+    flex: 1;
+    color: white;
+}
+.footer_textos{
+ display: flex;   
+}
+
+.area_texto .widget_titulo_text{
+    color: white;
+}
+
+.rodapediretos{
+    margin-top: 20px;
+    height: 40px;
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 13px;
+}
+
+.widget_body .texto1{
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.widget_body .areatexto2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.widget_body .areatexto2 
+.texto2
+.texto3{
+    flex: 1;
+}
+
+.texto2{
+    font-size: 12px;
+}
+
+.texto3{
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.widget_body img{
+    margin-top: 20px;
+    width: 30px;
+}
+
+.widget_body .poster{
+    display: flex;
+}
+
+.widget_body .seta{
+    width: 20px;
+}
+
+.widget_body .seta img{
+    width: 10px;
+}
+.seta_texto{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.seta_texto a{
+    color: #36aae1;
+    margin: 0px;
+}
+
+.containerposter{
+    flex-direction: column;
+}
+
+.menu_mobile{
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.mmlinha{
+    height: 5px;
+    background-color: #36aae1;
+
+}
+
+#btlogin{
+    border: 1px solid #36aae1;
+    border-radius: 30px;
+    color: #36aae1;
+}
+
+#btlogin:hover{
+    border-radius: 30px;
+    color: white;
+}
+
+@media (max-width:700px){
+    .textobanner{
+        padding: 20px;
+    }
+    
+    .textobanner h1{
+        font-size: 40px;
+    }
+
+    .textobanner h2{
+        font-size: 20px;
+    }
+
+    .opcoesbanner{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container{
+        flex-direction: column;;
+    }
+
+    #geral section, #geral aside{
+        padding: 20px;
+    }
+    aside .quadrado{
+        flex: none;
+    }
+
+    .footer_barra{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer_textos{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .rodapediretos{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+
+    }
+
+    header{
+        height: auto;
+    }
+    .logo{
+        padding: 20px;
+    }
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+.rodapeagendamento{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formedit{
+    border-radius: 1%;
+    border: 1px solid #36aae1;
+    padding: 5%;
+}

@@ -1,0 +1,108 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   /* height: 100px;*/
+}
+.container{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 10px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a {
+    /*display: block;*/
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial;
+
+}
+
+nav .active a,
+nav a:hover{
+    background-color: #36aae1;
+    color: white;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+.column{
+    flex-direction: column;
+}*/
+
+.containdercalendario{
+    margin-left: 1%;
+    flex: 1;
+}
+
+.containdercalendario h1{
+    background-color: #36aae1;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.SectionContainer{
+    display: flex;
+}
+
+.contatos{
+    margin-left: 1%;
+    margin-right: 1%;
+    flex: 1;
+}
+
+.contatos h1{
+    background-color: #36aae1;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.rodapediretos{
+    margin-top: 10px;
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 10px;
+    text-align: center;
+}

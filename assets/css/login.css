@@ -1,0 +1,264 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.container{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 10px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial;
+
+}
+
+nav .active a,
+nav a:hover{
+    background-color: #36aae1;
+    color: white;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/infantil.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+
+.textobanner{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textobanner h1{
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    padding: 0;
+}
+
+.textobanner h2{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.FormLogin{
+    width: 400px;
+    margin: auto;
+}
+
+.card-top{
+    text-align: center;
+}
+.imglogin{
+    border-radius: 100px;
+    width: 70px;
+    padding: 10px;
+    background-color:#36aae1;
+    box-shadow: 5px 5px 5px #ccc;  
+}
+.imglogin src{
+    fill :white;
+}
+
+.titulo{
+    color:#36aae1;
+    font-size: 24px;
+    font-style:normal;
+}
+
+.card-group >label{
+    width: 100%;
+    color: #36aae1;
+    display: block;
+
+}
+
+.card-group >input{
+    border-radius: 5px;
+    width: 100%;
+    outline: 0;
+    height: 30px;
+    padding: 5px; 
+
+}
+
+.card-group{
+  margin-bottom: 10px;  
+}
+
+#Btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,#36aae1,#0aa7f0);
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    height: 40px;
+}
+
+#Btn:hover{
+    background-image: linear-gradient(to right, #15658a,#5d9fbe);  
+}
+
+.rodapediretos{
+    margin-top: 20px;
+    height: 40px;
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 13px;
+}
+
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_barra{
+    display: flex;
+    flex: 1;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: white;
+
+}
+
+.footer_barra a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.fm_1{
+    background-color: #36aae1;
+}
+
+.fm_2{
+    background-color: #0079c7;
+}
+
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.footer_textos{
+    display: flex;   
+   }
+
+   .rodapediretos{
+    margin-top: 20px;
+    height: 40px;
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 13px;
+}
+
+.rodapeagendamento{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.MudarParaColuna{
+    flex-direction: column;
+}
+
+.area_texto{
+    flex: 1;
+    color: white;
+}
+
+.widget_titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_titulo_text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.widget_titulo_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36aae1;
+    margin-top: 10px;
+}
+
+.widget_body img{
+    margin-top: 20px;
+    width: 30px;
+}
+
+#btlogin{
+    border: 1px solid #36aae1;
+    border-radius: 30px;
+    color: #36aae1;
+}
+
+#btlogin:hover{
+    border-radius: 30px;
+    color: white;
+}
